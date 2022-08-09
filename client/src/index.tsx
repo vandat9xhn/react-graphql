@@ -6,7 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import App from "./App";
 
 const client_graph = new ApolloClient({
-  uri: "https://flyby-gateway.herokuapp.com/",
+  uri: "http://localhost:4000/",
   cache: new InMemoryCache(),
 });
 

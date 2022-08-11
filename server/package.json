@@ -1,5 +1,6 @@
 {
   "name": "server",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.10.0",
-    "graphql": "^16.5.0"
+    "graphql": "^16.5.0",
+    "jsonwebtoken": "^8.5.1"
   }
 }

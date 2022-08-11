@@ -8,6 +8,10 @@ import App from "./App";
 const client_graph = new ApolloClient({
   uri: "http://localhost:4000/",
   cache: new InMemoryCache(),
+  credentials: "include",
+  headers: {
+    "Access-Control-Allow-Origin": "*"
+  }
 });
 
 const root = createRoot(document.getElementById("root"));

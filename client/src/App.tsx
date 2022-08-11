@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import FriendsOnline from "components/friends_online/FriendsOnline";
+import Login from "components/login/Login";
 
 //
 export interface AppProps {}
@@ -11,7 +11,7 @@ function App({}: AppProps) {
   return (
     <div>
       <div>
-        <FriendsOnline />
+        <Login />
       </div>
     </div>
   );
